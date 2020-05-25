@@ -1,0 +1,62 @@
+.top-container {
+  
+  /* position: fixed; */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.middle-container {
+  
+  margin: 100px 0;
+}
+
+.bottom-container {
+  
+  /* height: 200px; */
+}
+
+
+
+.profile img {
+  height: 120px;
+}
+
+a {
+  color: #11999E;
+}
+
+.name {
+  flex: 50%;
+  text-align: left;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+}
+
+.name span {
+  padding-left: 40px;
+}
+
+.name img {
+  height: 120px;
+}
+
+.contact-me {
+  flex: 50%;
+  text-align: right;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-me a:nth-of-type(1) img {
+  height: 30px;
+}
+
+.contact-me a:nth-of-type(2) img {
+  height: 22px;
+  padding-top: 20px;
+}

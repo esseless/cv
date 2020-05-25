@@ -1,15 +1,23 @@
-body{
-    background-color: #EAF6F6;
+body {
+  color: #40514E;
+  background-color: #dddddd;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  line-height: 2;
 }
 
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 5%;
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
-h1, h3{
-    color: #66BFBF;
+.skill-row:nth-of-type(1) {
+  float: left;
+}
+
+.skill-row:nth-of-type(2) {
+  
 }
